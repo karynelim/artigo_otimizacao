@@ -52,7 +52,7 @@ def gera_solucao_inicial():
                 break
     return solucao
 
-# Busca local: move tarefas entre membros para melhorar o benefício
+# Busca local
 def busca_local(solucao):
     melhor = copy.deepcopy(solucao)
     melhor_beneficio = calcula_beneficio(melhor)
