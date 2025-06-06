@@ -66,7 +66,6 @@ prof = [
 # Capacidade de horas disponíveis para cada membro
 h = [40,35,30,30,35,40,35,30,40,35]
 
-# (A partir daqui o código permanece o mesmo!)
 # Função objetivo
 def calcula_beneficio(solucao):
     beneficio = 0
